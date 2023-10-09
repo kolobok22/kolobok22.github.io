@@ -8,22 +8,22 @@ import { RouterLink, RouterView } from 'vue-router'
       <router-link
         to="/addition"
         :active-class="'border-blue-500 text-gray-800'"
-        class="border-b-2 mx-1.5 sm:mx-6">Сложение</router-link>
+        class="border-b-2 mx-1.5 sm:mx-6 dark:text-neutral-50">Сложение</router-link>
 
       <router-link
         to="/subtraction"
         :active-class="'border-blue-500 text-gray-800'"
-        class="border-b-2 500 mx-1.5 sm:mx-6">Вычитание</router-link>
+        class="border-b-2 500 mx-1.5 sm:mx-6 dark:text-neutral-50">Вычитание</router-link>
 
       <router-link
         to="/multiplication"
         :active-class="'border-blue-500 text-gray-800'"
-        class="border-b-2 mx-1.5 sm:mx-6">Умножение</router-link>
+        class="border-b-2 mx-1.5 sm:mx-6 dark:text-neutral-50">Умножение</router-link>
 
       <router-link
         to="/division"
         :active-class="'border-blue-500 text-gray-800'"
-          class="border-b-2 mx-1.5 sm:mx-6">Деление</router-link>
+          class="border-b-2 mx-1.5 sm:mx-6 dark:text-neutral-50">Деление</router-link>
     </div>
   </nav>
   <RouterView />
