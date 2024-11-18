@@ -69,13 +69,11 @@ function generateExpressions () {
       y = getRandomInt(1,99)
     } while (x+y>100)
 
-    do {
-      variants = [...new Set([
-        x+y,
-        getRandomInt(10,99),
-        getRandomInt(10,99),
-      ])]
-    } while (variants.length !== 3)
+    variants = [
+      x+y,
+      x+y-getRandomInt(1,10),
+      x+y+getRandomInt(1,10),
+    ]
 
     variants.sort(() => Math.random() - 0.5);
 
