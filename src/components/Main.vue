@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-const count = ref(30)
+const count = ref(100)
 
 const emit = defineEmits(['start'])
 </script>
